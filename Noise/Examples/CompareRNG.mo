@@ -23,7 +23,9 @@ model CompareRNG
     annotation (Placement(transformation(extent={{-80,70},{-60,90}})));
   inner GlobalSeed globalSeed
     annotation (Placement(transformation(extent={{70,70},{90,90}})));
-  annotation (Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
+  annotation (
+    experiment(StopTime=10, Interval=0.001),
+    Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
             -100},{100,100}}),
                       graphics={Rectangle(
           extent={{-98,-22},{92,-98}},

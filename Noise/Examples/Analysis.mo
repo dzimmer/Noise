@@ -36,7 +36,7 @@ equation
       points={{18,-76},{10,-76},{10,-70},{-20,-70},{-20,50},{-59,50}},
       color={0,0,127}));
   annotation (
-    experiment(StopTime=100, Tolerance=1e-006),
+    experiment(StopTime=10, Interval=0.001),
 Documentation(revisions="<html>
 <p><img src=\"modelica://Noise/Resources/Images/dlr_logo.png\"/> <b>Developed 2014 at the DLR Institute of System Dynamics and Control</b> </p>
 </html>", info="<html>

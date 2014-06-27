@@ -54,7 +54,8 @@ equation
     (r_sampled, state) = my_sampled_random(states_in=  pre(state));
   end when;
 
-  annotation (experiment(StopTime=10, Interval=0.01),
+  annotation (
+    experiment(StopTime=10, Interval=0.001),
     Documentation(revisions="<html>
 <p><img src=\"modelica://Noise/Resources/Images/dlr_logo.png\"/> <b>Developed 2014 at the DLR Institute of System Dynamics and Control</b> </p>
 </html>", info="<html>

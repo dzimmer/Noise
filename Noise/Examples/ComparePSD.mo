@@ -21,7 +21,7 @@ model ComparePSD "Compares different PSDs"
   inner Noise.GlobalSeed globalSeed
     annotation (Placement(transformation(extent={{70,70},{90,90}})));
   annotation (
-    experiment(StopTime=100, Interval=0.001),
+    experiment(StopTime=10, Interval=0.001),
 Documentation(revisions="<html>
 <p><img src=\"modelica://Noise/Resources/Images/dlr_logo.png\"/> <b>Developed 2014 at the DLR Institute of System Dynamics and Control</b> </p>
 </html>", info="<html>

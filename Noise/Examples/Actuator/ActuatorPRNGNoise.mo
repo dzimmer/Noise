@@ -5,10 +5,8 @@ model ActuatorPRNGNoise
   inner GlobalSeed globalSeed
     annotation (Placement(transformation(extent={{70,70},{90,90}})));
   annotation (
-    experiment(
-      StopTime=8,
-      Interval=0.01,
-      Tolerance=1e-005),Documentation(info="<html>
+    experiment(StopTime=10, Interval=0.001,Tolerance=1e-005),
+    Documentation(info="<html>
 <p>Simulation of the same actuator with a noisy position sensor using the <a href=\"Noise.PRNG\">PRNG</a> block.</p>
 </html>", revisions="<html>
 <p><img src=\"modelica://Noise/Resources/Images/dlr_logo.png\"/> <b>Developed 2014 at the DLR Institute of System Dynamics and Control</b> </p>

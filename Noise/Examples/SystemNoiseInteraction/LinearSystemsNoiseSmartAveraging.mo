@@ -223,7 +223,9 @@ equation
   connect(noise20.y, NoiseAdd.u[20]) annotation (Line(
       points={{-25.1,-67},{-20,-67},{-20,46},{-20,46.01},{-16,46.01},{-10,46.01}},
       color={0,0,127}));
-  annotation (  Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
+  annotation (
+    experiment(StopTime=10, Interval=0.001,Tolerance=1e-005),
+      Diagram(coordinateSystem(preserveAspectRatio=false, extent={{-100,
             -100},{100,100}}),
             graphics={                    Rectangle(
           extent={{44,80},{90,22}},

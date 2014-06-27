@@ -9,11 +9,8 @@ model PRNG "Shows the use of the basic PRNG block"
     annotation (Placement(transformation(extent={{-10,-12},{10,8}})));
 equation
 
-  annotation (experiment(
-      StopTime=5,
-      Interval=0.0005,
-      __Dymola_fixedstepsize=0.001,
-      __Dymola_Algorithm="Euler"),
+  annotation (
+    experiment(StopTime=10, Interval=0.001),
     Documentation(revisions="<html>
 <p><img src=\"modelica://Noise/Resources/Images/dlr_logo.png\"/> <b>Developed 2014 at the DLR Institute of System Dynamics and Control</b> </p>
 </html>", info="<html>

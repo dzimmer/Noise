@@ -3,10 +3,7 @@ model ActuatorLinearSystemsNoise
 extends Actuator(controller(redeclare
         Noise.Examples.Actuator.Parts.LinearSystemsNoise noiseModel));
   annotation (
-    experiment(
-      StopTime=8,
-      Interval=0.01,
-      Tolerance=1e-005),
+    experiment(StopTime=10, Interval=0.001,Tolerance=1e-005),
   Documentation(info="<html>
 <p>Simulation of the same actuator with a noisy position sensor using the <a href=\"Modelica_LinearSystems2\">LinearSystems2</a> library.</p>
 </html>", revisions="<html>

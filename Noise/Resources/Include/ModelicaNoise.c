@@ -1,6 +1,22 @@
-/* External functions for Modelica Noise library
+/* External utility functions for Modelica_Noise library
+   (planned to be included in the Modelica Standard Library)
+
+   The functions are partially non-portable.
+   
+   The following #define's can be used:
+
+   MODELICA_EXPORT: Prefix used for function calls. If not defined, blank is used
+                    Useful definitions:
+                     - "static" that is all functions become static
+                       (useful if file is included with other C-sources for an
+                        embedded system)
+                     - "__declspec(dllexport)" if included in a DLL and the
+                       functions shall be visible outside of the DLL
 
    Copyright (C) 2014, Modelica Association and DLR.
+   
+   The content of this file is free software; it can be redistributed
+   and/or modified under the terms of the BSD license.   
 */
 
 #ifndef MODELICANOISE_H
